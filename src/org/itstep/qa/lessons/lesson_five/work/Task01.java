@@ -14,7 +14,7 @@ public class Task01
         array = new int[10];
         for (int i = 0; i < array.length; i++)
         {
-            array[i] = scanner.nextInt(10);// заполнили массив
+            array[i] = scanner.nextInt();// заполнили массив
         }
         for (int i = 0; i < array.length; i++)
         {

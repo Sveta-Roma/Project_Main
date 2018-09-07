@@ -10,8 +10,8 @@ public class Task02
         System.out.println("Введите число и только число");
         int inputValue = 0;
         //int i = 0; // контроль количества введенных
-        while (true)
-        { // бесконечный цикл
+        while (true)// бесконечный цикл
+        {
             if (scanner.hasNextInt())
             {
                 inputValue = scanner.nextInt();
