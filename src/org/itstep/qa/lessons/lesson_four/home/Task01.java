@@ -7,7 +7,7 @@ public class Task01 {
     public static void main(String[] args) {
         Random r = new Random();
         int a = r.nextInt(20);
-        System.out.println("Случайное число " + a);
+        // System.out.println("Случайное число " + a);
         System.out.println("У Вас пять попыток на угадывания");
         Scanner sc = new Scanner(System.in);
         int i = 0;
@@ -29,6 +29,7 @@ public class Task01 {
                     sc.nextLine();
                     i++;
                 }
+
                 if (sc.nextInt() == a)
                 {
                 System.out.println("Победа!");
