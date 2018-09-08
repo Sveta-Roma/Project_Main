@@ -25,14 +25,14 @@ public class Task03
         }
         System.out.println("В итоге получился массив");
         System.out.println(Arrays.toString(arr));
-
+// поменять местами первый и последний элемент
         int temp = 0;
         temp = arr[0];
         arr[0] = arr[arr.length - 1];
         arr[arr.length - 1] = temp;
         System.out.println("В итоге получился массив");
         System.out.println(Arrays.toString(arr));
-
+// нулевые элементы
         temp = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 0){
