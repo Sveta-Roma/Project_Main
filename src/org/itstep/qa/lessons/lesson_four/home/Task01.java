@@ -29,7 +29,6 @@ public class Task01 {
                     sc.nextLine();
                     i++;
                 }
-
                 if (sc.nextInt() == a)
                 {
                 System.out.println("Победа!");
