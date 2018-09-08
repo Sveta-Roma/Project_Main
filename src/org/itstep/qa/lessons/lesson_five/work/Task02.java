@@ -22,7 +22,6 @@ public class Task02
             result = result + a[i];
         }
         result = result / a.length;
-
             System.out.println("Среднее арифметическое равно " + result);
     }
 }

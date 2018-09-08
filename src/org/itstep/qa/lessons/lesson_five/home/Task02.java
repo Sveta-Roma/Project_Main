@@ -6,19 +6,28 @@ import java.util.Scanner;
 public class Task02
 { // В массиве из задачи 1 поменять местами первый и последний элементы. Вывести массив на экран до замены и после замены.
     public static void main(String[] args) {
-        System.out.println("Введите значения:");
+        int [] arr = new int[10];
         Scanner sc = new Scanner(System.in);
-        int[] a;
-        a = new int[10];
-        for (int i = 0; i < a.length; i++)
-        {
-            a[i] = sc.nextInt();// заполнили массив
+        for (int i = 0; i < arr.length; i++) {
+            do {
+                System.out.println("Введите целое чилсо");
+                if (sc.hasNextInt()){
+                    arr[i] = sc.nextInt();
+                    break;
+                } else {
+                    System.out.println("Это не верный элемент! Введите правильный элемент");
+                    sc.nextLine();
+                }
+            }while (true);
         }
+        System.out.println("В итоге получился массив");
+        System.out.println(Arrays.toString(arr));
 
-        System.out.println(Arrays.toString(a));// выводит в строчку массив
-
-            //int temp = a[0];
-            //a[0] = a[a.length];
-            //a[a.length] = temp;
+        int temp = 0;
+        temp = arr[0];
+        arr[0] = arr[arr.length - 1];
+        arr[arr.length - 1] = temp;
+        System.out.println("В итоге получился массив");
+        System.out.println(Arrays.toString(arr));
     }
 }
