@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Task02
 { // В массиве из задачи 1 поменять местами первый и последний элементы. Вывести массив на экран до замены и после замены.
-    {
+    public static void main(String[] args) {
         System.out.println("Введите значения:");
         Scanner sc = new Scanner(System.in);
         int[] a;

@@ -15,12 +15,6 @@ public class Task02
         for (int i = 0; i < a.length; i++) {
             a[i] = sc.nextInt();// заполнили массив
         }
-
-        /*for (int i = 0; i < a.length; i++)
-        {
-            System.out.println(a[i]);
-        }*/
-
         System.out.println(Arrays.toString(a));// выводит в строчку массив
 
         for (int i = 0; i < a.length; i++)

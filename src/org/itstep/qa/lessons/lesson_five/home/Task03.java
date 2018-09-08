@@ -7,7 +7,7 @@ public class Task03
 { /* Напишите программу, выводящую количество нулевых элементов в заданном целочисленном массиве.
    * Массив можно задать любым удобным способом
    */
-    {
+    public static void main(String[] args) {
         int[] a;
         a = new int[10];
         Random random = new Random();
@@ -15,7 +15,6 @@ public class Task03
         {
             a[i] = random.nextInt(150);
         }
-
         System.out.println(Arrays.toString(a));// выводит в строчку массив
     }
 }
