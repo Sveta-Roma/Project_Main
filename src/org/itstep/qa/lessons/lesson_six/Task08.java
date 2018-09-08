@@ -5,5 +5,7 @@ public class Task08 {
         Character ch = new Character('A');
         Character ch1 = Character.toLowerCase(ch);
         System.out.println(ch1);
+        ch1 = Character.toUpperCase(ch);
+        System.out.println(ch1);
     }
 }
