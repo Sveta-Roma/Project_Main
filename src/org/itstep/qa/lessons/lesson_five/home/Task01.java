@@ -12,7 +12,7 @@ public class Task01 { /* Объявить массив целых чисел д�
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < arr.length; i++) {
             do {
-                System.out.println("Введите целое чилсо");
+                System.out.println("Введите целое число");
                 if (sc.hasNextInt()){
                     arr[i] = sc.nextInt();
                     break;

@@ -11,34 +11,20 @@ public class Task03
     public static void main(String[] args) {
         int [] arr = new int[10];
         Scanner sc = new Scanner(System.in);
+        System.out.println("Введите значения массива 10 элементов: ");
         for (int i = 0; i < arr.length; i++) {
-            do {
-                System.out.println("Введите целое чилсо");
-                if (sc.hasNextInt()){
                     arr[i] = sc.nextInt();
-                    break;
-                } else {
-                    System.out.println("Это не верный элемент! Введите правильный элемент");
-                    sc.nextLine();
-                }
-            }while (true);
         }
         System.out.println("В итоге получился массив");
         System.out.println(Arrays.toString(arr));
-// поменять местами первый и последний элемент
-        int temp = 0;
-        temp = arr[0];
-        arr[0] = arr[arr.length - 1];
-        arr[arr.length - 1] = temp;
-        System.out.println("В итоге получился массив");
-        System.out.println(Arrays.toString(arr));
 // нулевые элементы
+        int temp = 0;
         temp = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 0){
                 temp++;
             }
         }
-        System.out.println("Количество нулевых элементов равно" + temp);
+        System.out.println("Количество нулевых элементов равно " + temp);
     }
 }
