@@ -1,6 +1,6 @@
 package org.itstep.qa.lessons.lesson_six.home;
 
-public class Task09 {
+public class Task01 {
     public static void main(String[] args) {
         // проверить является ли введенный символ цифрой
 
