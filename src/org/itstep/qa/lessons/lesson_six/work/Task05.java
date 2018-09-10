@@ -6,6 +6,5 @@ public class Task05 {
         String s1 = s.replace('1','A');
         System.out.println(s);
         System.out.println(s1);
-
     }
 }
