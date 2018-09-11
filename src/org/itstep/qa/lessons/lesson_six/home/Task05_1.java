@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Task05_1 {
     // нужно еще в цикл обернуть
-    
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ведите один символ: ");
-        String temp = sc.nextLine();
+        String temp = sc.nextLine();// временное хранилище
         if (temp.length() == 1){
             char ch = temp.charAt(0);
             if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')){
