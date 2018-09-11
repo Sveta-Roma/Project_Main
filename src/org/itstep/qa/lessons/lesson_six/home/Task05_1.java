@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task05_1 {
     // нужно еще в цикл обернуть
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ведите один символ: ");

@@ -17,7 +17,6 @@ public class Task04_1 {
                 counter++;
             }
         }
-
         /* краткая форма записи for, работает как и верхний for
         //counter = 0;
         for(String temp : result){
