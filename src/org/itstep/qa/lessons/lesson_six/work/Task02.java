@@ -7,6 +7,7 @@ public class Task02 {
         String v = "hbhg";
         System.out.println(b.charAt(2));
         System.out.println(b.length());
-        String result = b +v;
+        String result = b + v;
+        System.out.println(result);
     }
 }

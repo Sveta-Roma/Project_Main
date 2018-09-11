@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Task01 {
     public static void main(String[] args) {
         int a;
-        String b = "hbhg";
-        System.out.println(b.charAt(2));
+        String b = "hbhg yh gy";
+        System.out.println(b.charAt(5));
         System.out.println(b.length());
     }
 }

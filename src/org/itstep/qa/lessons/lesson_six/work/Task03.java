@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Task03 {
     public static void main(String[] args) {
-        int i = 1; // приметивная переменная
+        int i = 1; // примитивная переменная
         Scanner sc_1 = new Scanner(System.in); // ссылочная переменная
         Scanner sc_2 = new Scanner(System.in);
 
