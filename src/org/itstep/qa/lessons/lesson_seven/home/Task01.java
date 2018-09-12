@@ -3,6 +3,8 @@ package org.itstep.qa.lessons.lesson_seven.home;
 import java.util.Scanner;
 
 public class Task01 {
+    // Пользователь вводит название месяца (все слово в нижнем регистре). Вывести количество дней этого месяца. февраль
+    // всегда равен 28
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите месяц:");

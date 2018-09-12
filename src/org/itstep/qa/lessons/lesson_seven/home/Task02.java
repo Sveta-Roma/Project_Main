@@ -3,6 +3,8 @@ package org.itstep.qa.lessons.lesson_seven.home;
 import java.util.Scanner;
 
 public class Task02 {
+    // Пользователь вводит некую дату. Отобразить у каких месяцев данная дата встречается. Реализовать с наименее
+    // возможным количеством проверок
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите дату");
